@@ -1,0 +1,68 @@
+data types
+int           | %d for printing
+double        | %lf for printingg
+float         | %f for printing
+char          | %c for printing
+
+***basic outline of every C program*** 
+#include<stdi.h>
+int main()
+{
+
+return 0;
+}
+
+1:int
+
+#include<stdio.h>
+int main()
+{  int age=10;
+printf("%d",age);
+
+      return 0;
+}
+ 1.output:
+   10
+
+
+2:double
+
+#include<stdio.h>
+int main()
+{double number = 12.50;
+ printf("%lf",number);
+return 0;
+}
+
+
+2.output:
+  12.500000
+
+
+3:float
+
+#include<stdio.h>
+int main()
+{ 
+float number1=12.33;
+printf("%f",number1)
+return 0;
+}
+
+3.output:
+  12.33
+
+
+4:char
+#include<stdi.h>
+int main()
+{
+char character='x';
+printf("character")
+return 0;
+}
+
+4.output;
+  z
+
+
