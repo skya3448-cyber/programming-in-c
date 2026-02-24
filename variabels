@@ -1,0 +1,15 @@
+-You cannot create variable names with space in between.
+-You cannot start variable names with numbers.
+-You cannot use certain words as variable names.( ex,if,while,).
+-Must start with a letter(a-z,A-Z)or an underscore(_).
+-no special characters or spaces(except underscore).
+
+
+*-Variable Scope:The "Scope" determines where in your code the  variable can be accesed:
+  1:Local variable:Declred inside a function or a block { }. They only exist while that function is running.
+  2:Global Variabels:Declared outside of all functions . they can be accessed from anywhere in the program.
+
+ex:
+    // type variable_name=value;
+    //int age=25;
+    
