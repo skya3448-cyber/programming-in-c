@@ -1,0 +1,61 @@
+1.addition of two number
+#include<stdio.h>
+ int main()
+{
+    int sum,num1,num2;
+     printf("enter two number: ");
+     scanf("%d%d",&num1,&num2);
+
+     sum=num1+num2;
+
+    printf("the sum is %d",sum);
+
+         return 0;
+
+    }
+
+ 2. arithmetic operators
+#include<stdio.h>
+int main()
+{
+    double num1,num2,result;
+    char op;
+    printf("enter an operator(+,-,*,/)");
+    scanf("%c",&op);
+    printf("enter two number");
+    scanf("%2lf %2lf",&num1,&num2);
+
+    switch(op)
+
+    { case'+':
+        result=num1+num2;
+        printf("sum : %2lf",result);
+
+        break;
+
+  case'-':
+      result=num1-num2;
+      printf("sub:%2lf",result);
+
+      break;
+
+  case'*':
+      result=num1*num2;
+      printf("mul:%2lf",result);
+      break;
+  case'/':
+       result=num1/num2;
+       printf("div:%2lf",result);
+
+       break;
+  default:
+    printf("invalid operator!\n");
+    }
+
+
+
+    return 0;
+
+
+}
+
