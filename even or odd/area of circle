@@ -1,0 +1,35 @@
+1.even or odd
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter a number");
+    scanf("%d",&num);
+
+    if  (num%2==0)
+        {printf("the given number is even");}
+    else
+            {
+        printf("the given number is odd");
+       }
+
+       return 0;
+
+
+}
+
+
+2.area of circle
+#include<stdio.h>
+int main()
+{
+    double r,area;
+    printf("enter a radius of circle");
+    scanf("%2lf",&r);
+
+    area=3.14*r*r;
+    printf("area:%2lf",area);
+    return 0;
+
+}
+
