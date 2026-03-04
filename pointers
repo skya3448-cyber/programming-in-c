@@ -1,0 +1,12 @@
+Understanding Memory Addresses
+-Variable Allocation: When a variable is declared, space is allocated in the computer's memory.
+-The Ampersand (&) Symbol: Use the ampersand symbol (e.g., &age) to access the memory address of a variable.
+-Printing Addresses: Use the %p format specifier in printf to display a memory address.
+-Note: The output for a memory address will vary from device to device based on where the variable is stored.
+
+What is a Pointer?
+-Definition: A pointer is a variable that stores the memory address of another variable, rather than a direct value.
+-Declaration: To create a pointer, use the asterisk (*) symbol:
+-Example: int *ptr; (where ptr is the pointer variable).
+-Assigning Values: You assign the address of a regular variable to a pointer using the ampersand:
+-Example: ptr = &age;.
