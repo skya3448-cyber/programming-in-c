@@ -80,4 +80,37 @@ int main()
     return 0;
 }
 
+4.swaping of two strings
+#include <stdio.h>
+void reverseString(char str[]) {
+ int length = 0;
+ char temp;
+
+ while (str[length] != '\0') {
+ length++;
+ }
+
+ int i = 0;
+ int j = length - 1;
+ while (i < j) {
+
+ temp = str[i];
+ str[i] = str[j];
+ str[j] = temp;
+
+ i++;
+ j--;
+ }
+}
+int main() {
+ char myString[100];
+ printf("--- String Reversal ---\n");
+ printf("Enter a string: ");
+
+ scanf("%[^\n]", myString);
+ reverseString(myString);
+ printf("Reversed string: %s\n", myString);
+ return 0;
+}
+
 
