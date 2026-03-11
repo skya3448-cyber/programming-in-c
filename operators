@@ -1,0 +1,17 @@
+conditional operator:The Conditional Operator (also called the ternary operator)
+is a short way to write an if–else statement in one line.
+-how it works
+  condition is checked first.
+  If the condition is true, expression1 is executed.
+  If the condition is false, expression2 is executed.
+
+ex:
+#include <stdio.h>
+int main() {
+    int a = 10, b = 20, max;
+
+    max = (a > b) ? a : b;
+
+    printf("Maximum = %d", max);
+    return 0;
+}
